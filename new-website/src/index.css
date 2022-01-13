@@ -77,7 +77,7 @@ body {
   cursor: pointer;
 }
 
-.task.reminder {
+.task.completed {
   border-left: 5px solid green;
 }
 
