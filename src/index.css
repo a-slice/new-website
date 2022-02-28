@@ -36,6 +36,38 @@ body {
   border-radius: 5px;
 }
 
+.calendar-container {
+  max-width: width;
+  margin: 30px auto;
+  margin-right: 50px;
+  margin-left: 50px;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: rgb(226, 208, 255);
+}
+.week-day-container{
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  display: inline-block;
+  height: 250px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.week-day{
+  padding: 70px;
+  background-color: aquamarine;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  margin-top: 0px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;

@@ -1,10 +1,10 @@
 import './App.css';
 import Header from './components/Header';
 import { taskData } from './Data/Tasks';
-//import AddTask from './components/AddTask';
+//import AddTask from './components/ToDo/AddTask';
 import { useState } from 'react';
-import MyTasks from './components/MyTasks'
-
+import MyTasks from './components/ToDo/MyTasks'
+import Calendar from './components/Calendar/Calendar'
 function App() {
   const [showAddTask, setShowAddTask] = useState(false)
 
@@ -51,8 +51,8 @@ function App() {
   //   console.log('toggle completed')
   // }
   return (
-    <div className="container">
-      
+    <>
+    <div className="container">     
       <Header />
       
       {/* {taskData.length > 0 
@@ -61,8 +61,12 @@ function App() {
       <Tasks />
       : 'No tasks available'
       } */}
-      <MyTasks />
+      <MyTasks />   
     </div>
+  <div className="calendar-container">
+    <Calendar />
+  </div>
+  </>
   );
 }
 

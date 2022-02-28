@@ -1,6 +1,6 @@
 import React from 'react'
 import MyTask from './MyTask'
-import { taskData } from '../Data/Tasks'
+import { taskData } from '../../Data/Tasks'
 
 //contains all the tasks
 const MyTasks = () => {    
